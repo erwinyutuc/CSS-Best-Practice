@@ -1,0 +1,137 @@
+/* layoutone */
+.box {
+    border: 4px solid lightgrey;
+    width: 100px;
+    height: 100px;
+}
+
+.box-small {
+    width: 50px;
+    height: 50px;
+    margin-left: 24px
+}
+
+.box-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    border: 4px solid lightgrey;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+/* layouttwo */
+
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    border: 2px solid lightgray;
+    width: 100%;
+    height: 24px;
+    margin-bottom: 24px;
+}
+
+.six {
+    border: 4px solid lightgrey;
+    width: 30%;
+    height: 100px;
+    margin-bottom: 24px;
+}
+
+.containertwo {
+    border: 4px solid lightgrey;
+    padding: 24px 24px 0px 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.rowone {
+    width: 100%;
+    max-width: 600px;
+
+}
+.two-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* layoutthree */
+* {
+    box-sizing: border-box;
+}
+.fourbox {
+    border: 2px solid lightgray;
+    margin-bottom: 24px
+}
+
+.containerthree {
+    border: 4px solid lightgrey;
+    padding: 24px 24px 0 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourbox-small {
+    height: 50px;
+}
+.three-wrapper {
+    width: 50%;
+    padding-right: 24px;
+}
+
+.fourbox-large {
+    width: 50%;
+}
+
+/* layoutfour */
+
+* {
+    box-sizing: border-box;
+}
+
+.fourrow {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.boxs {
+    border: 4px solid lightgrey;
+    height: 50px;
+    margin-bottom: 24px;
+}
+
+.containerfour {
+    border: 4px solid lightgrey;
+    padding: 24px 24px 0 24px;
+    display: flex;
+}
+
+.boxs-tiny {
+    height: 50px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.four-wrapper {
+    width: 50%;
+    padding: 0 24px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.thirdbigbox {
+    border: 4px solid lightgrey; 
+    width: 50%;
+    margin-bottom: 24px;
+}
+
+.tiny-wrapper { 
+    display: flex;
+    justify-content: space-between;
+}
